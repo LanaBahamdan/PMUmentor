@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Profile - PMUMentor</title>
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        body {
+            background-color: #f4f6f8;
+        }
+
+        .profile-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .profile-logo {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .profile-logo img {
+            width: 90px;
+        }
+
+        .back-link {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .back-link a {
+            color: royalblue;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="profile-container">
+    <form class="form">
+
+
+        <div class="profile-logo">
+            <img src="images/pmu-logo.png" alt="PMU Logo">
+        </div>
+
+        <p class="title">Update Profile</p>
+        <p class="message">Keep your personal information up to date.</p>
+
+        <label>
+            <input class="input" type="text" required>
+            <span>Full Name</span>
+        </label>
+
+
+        <label>
+            <input class="input" type="email" required>
+            <span>Email</span>
+        </label>
+
+
+        <label>
+            <input class="input" type="text" required>
+            <span>Major</span>
+        </label>
+
+
+        <button class="submit">Save Changes</button>
+
+
+        <div class="back-link">
+            <a href="login.html">&larr; Back to Login</a>
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>
